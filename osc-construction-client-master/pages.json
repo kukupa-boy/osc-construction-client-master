@@ -1,0 +1,238 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index4",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/index3",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/index2",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/index1",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		}
+        ,{
+            "path" : "pages/work/work",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "办事大厅"
+			}
+        }
+        ,{
+            "path" : "pages/msg/msg",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "消息"
+			}
+        }
+        ,{
+            "path" : "pages/center/center",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的"
+			}
+        }
+        ,{
+            "path" : "pages/ctlmediation/ctlmediation",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "中介服务"
+			}
+        }
+        ,{
+            "path" : "pages/ctlappoint/ctlappoint",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "办事预约"
+			}
+        },{
+            "path" : "pages/feedback/feedback",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我要建议"
+			}
+        }
+        ,{
+            "path" : "pages/article/article",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/ctlelectrical/ctlelectrical",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/project/project",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/project/project1",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/ctlinproress/ctlinproress",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+		,{
+		    "path" : "pages/projectList/projectList",
+		    "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "项目列表"
+			}
+		},
+        {
+            "path" : "pages/projectDetail/projectDetail",
+            "style" : {
+        		"navigationStyle": "custom",
+        		"navigationBarTitleText": "项目详情"
+        	}
+        }
+        ,{
+            "path" : "pages/newPublicList/newPublicList",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "最新政策",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/companyServiceList/companyServiceList",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "企业服务"
+			}
+        }
+        ,{
+            "path" : "pages/sceneList/sceneList",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "场景式"
+			}
+        }
+        ,{
+            "path" : "pages/servelist/servelist",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        } 
+		,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登陆"
+			}
+        },
+		{
+            "path" : "pages/unifiedForm/unifiedForm",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "统一表单"
+			}
+        }
+        ,{
+            "path" : "pages/unifiedDetailList/unifiedDetailList",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "统一清单"
+			}
+        }
+        ,{
+            "path" : "pages/unifiedMaterial/unifiedMaterial",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "统一材料"
+			}
+        }
+        ,{
+            "path" : "pages/unifiedProcess/unifiedProcess",
+            "style" : {
+            	"navigationStyle": "custom",
+            	"navigationBarTitleText": "统一流程"
+            }
+        }
+        ,{
+            "path" : "pages/unifiedSystem/unifiedSystem",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "统一制度"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "天府易工程",
+		"navigationBarBackgroundColor": "#4BA2FF",
+		"backgroundColor": "#4BA2FF"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#4BA2FF",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index4",
+				"iconPath": "static/tab-home@2x.png",
+				"selectedIconPath": "static/tab-home-cur@2x.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/work/work",
+				"iconPath": "static/tab-center@2x.png",
+				"selectedIconPath": "static/tab-center-cur@2x.png",
+				"text": "办事大厅"
+			},
+			{
+				"pagePath": "pages/msg/msg",
+				"iconPath": "static/tab-msg@2x.png",
+				"selectedIconPath": "static/tab-msg-cur@2x.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tab-my@2x.png",
+				"selectedIconPath": "static/tab-my-cur@2x.png",
+				"text": "我的"
+			}
+		]
+	}
+}
